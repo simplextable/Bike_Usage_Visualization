@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook original-version='18.1' source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='2011-capitalbikeshare-tripdata.csv (Multiple Connections)' inline='true' name='federated.1ebm2y11pgs8xq15942on10iz7oe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2011-capitalbikeshare-tripdata' name='textscan.1t0enyx1sjobls178ahg61lnx1ub'>
+            <connection class='textscan' directory='C:/Users/Predator/Desktop/Python_Dosyasi/Bike_Tableau' filename='2011-capitalbikeshare-tripdata.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='2435944' name='textscan.1l857350xqkry61giyeg91o9mzh1'>
+            <connection class='textscan' directory='C:/Users/Predator/Desktop/Python_Dosyasi/Bike_Tableau' filename='2435944.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1t0enyx1sjobls178ahg61lnx1ub' name='2011-capitalbikeshare-tripdata.csv' table='[2011-capitalbikeshare-tripdata#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=';'>
+            <column datatype='string' name='&quot;Duration&quot;,&quot;Start date&quot;,&quot;End date&quot;,&quot;Start station number&quot;,&quot;Start station&quot;,&quot;End station number&quot;,&quot;End station&quot;,&quot;Bike number&quot;,&quot;Mem' ordinal='0' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1t0enyx1sjobls178ahg61lnx1ub' name='2011-capitalbikeshare-tripdata.csv' table='[2011-capitalbikeshare-tripdata#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=';'>
+            <column datatype='string' name='&quot;Duration&quot;,&quot;Start date&quot;,&quot;End date&quot;,&quot;Start station number&quot;,&quot;Start station&quot;,&quot;End station number&quot;,&quot;End station&quot;,&quot;Bike number&quot;,&quot;Mem' ordinal='0' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;tr&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;TL&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;tr_TR&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>&quot;Duration&quot;,&quot;Start date&quot;,&quot;End date&quot;,&quot;Start station number&quot;,&quot;Start station&quot;,&quot;End station number&quot;,&quot;End station&quot;,&quot;Bike number&quot;,&quot;Mem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[&quot;Duration&quot;,&quot;Start date&quot;,&quot;End date&quot;,&quot;Start station number&quot;,&quot;Start station&quot;,&quot;End station number&quot;,&quot;End station&quot;,&quot;Bike number&quot;,&quot;Mem]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>&quot;Duration&quot;,&quot;Start date&quot;,&quot;End date&quot;,&quot;Start station number&quot;,&quot;Start station&quot;,&quot;End station number&quot;,&quot;End station&quot;,&quot;Bike number&quot;,&quot;Mem</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_AF3261D6F8E74847913B8D457D3C3F55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2011-capitalbikeshare-tripdata.csv' datatype='table' name='[__tableau_internal_object_id__].[2011-capitalbikeshare-tripdata.csv_AF3261D6F8E74847913B8D457D3C3F55]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2011-capitalbikeshare-tripdata.csv' id='2011-capitalbikeshare-tripdata.csv_AF3261D6F8E74847913B8D457D3C3F55'>
+            <properties context=''>
+              <relation connection='textscan.1t0enyx1sjobls178ahg61lnx1ub' name='2011-capitalbikeshare-tripdata.csv' table='[2011-capitalbikeshare-tripdata#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=';'>
+                  <column datatype='string' name='&quot;Duration&quot;,&quot;Start date&quot;,&quot;End date&quot;,&quot;Start station number&quot;,&quot;Start station&quot;,&quot;End station number&quot;,&quot;End station&quot;,&quot;Bike number&quot;,&quot;Mem' ordinal='0' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='2435944' inline='true' name='federated.0vyj2lk0pja8s11f27d961uma8o0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2435944' name='textscan.1hxab7p1g5dtj91g3dvy41fwz2q6'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/Predator/Desktop/Python_Dosyasi/Bike_Tableau/2435944.csv' dataRefreshTime='' directory='C:/Users/Predator/Desktop/Python_Dosyasi/Bike_Tableau' filename='C:/Users/Predator/AppData/Local/Temp/TableauTemp/0iji3no16awglr1c0hnnd10lh72d/2435944.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1hxab7p1g5dtj91g3dvy41fwz2q6' name='2011-capitalbikeshare-tripdata.csv' table='[2011-capitalbikeshare-tripdata#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=','>
+            <column datatype='integer' name='Duration' ordinal='0' />
+            <column datatype='datetime' name='Start date' ordinal='1' />
+            <column datatype='datetime' name='End date' ordinal='2' />
+            <column datatype='integer' name='Start station number' ordinal='3' />
+            <column datatype='string' name='Start station' ordinal='4' />
+            <column datatype='integer' name='End station number' ordinal='5' />
+            <column datatype='string' name='End station' ordinal='6' />
+            <column datatype='string' name='Bike number' ordinal='7' />
+            <column datatype='string' name='Member type' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1hxab7p1g5dtj91g3dvy41fwz2q6' name='2011-capitalbikeshare-tripdata.csv' table='[2011-capitalbikeshare-tripdata#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=','>
+            <column datatype='integer' name='Duration' ordinal='0' />
+            <column datatype='datetime' name='Start date' ordinal='1' />
+            <column datatype='datetime' name='End date' ordinal='2' />
+            <column datatype='integer' name='Start station number' ordinal='3' />
+            <column datatype='string' name='Start station' ordinal='4' />
+            <column datatype='integer' name='End station number' ordinal='5' />
+            <column datatype='string' name='End station' ordinal='6' />
+            <column datatype='string' name='Bike number' ordinal='7' />
+            <column datatype='string' name='Member type' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;tr&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;TL&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;tr_TR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duration]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>Duration</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Start date]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>Start date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[End date]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>End date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start station number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Start station number]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>Start station number</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start station</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Start station]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>Start station</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End station number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[End station number]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>End station number</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End station</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[End station]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>End station</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bike number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Bike number]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>Bike number</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Member type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Member type]</local-name>
+            <parent-name>[2011-capitalbikeshare-tripdata.csv]</parent-name>
+            <remote-alias>Member type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Edit1' datatype='datetime' name='[Calculation_3737987698480791553]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='if int(DATENAME(&apos;minute&apos;, [End date])) != 0 then DATEADD(&apos;hour&apos;, 1, DATETRUNC(&apos;hour&apos;,[End date]))&#13;&#10;else DATETRUNC(&apos;hour&apos;,[End date])&#13;&#10;END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='2011-capitalbikeshare-tripdata.csv' datatype='table' name='[__tableau_internal_object_id__].[2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2011-capitalbikeshare-tripdata.csv' id='2011-capitalbikeshare-tripdata.csv_424E595137394847B6FE4232BABA63F3'>
+            <properties context=''>
+              <relation connection='textscan.1hxab7p1g5dtj91g3dvy41fwz2q6' name='2011-capitalbikeshare-tripdata.csv' table='[2011-capitalbikeshare-tripdata#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=','>
+                  <column datatype='integer' name='Duration' ordinal='0' />
+                  <column datatype='datetime' name='Start date' ordinal='1' />
+                  <column datatype='datetime' name='End date' ordinal='2' />
+                  <column datatype='integer' name='Start station number' ordinal='3' />
+                  <column datatype='string' name='Start station' ordinal='4' />
+                  <column datatype='integer' name='End station number' ordinal='5' />
+                  <column datatype='string' name='End station' ordinal='6' />
+                  <column datatype='string' name='Bike number' ordinal='7' />
+                  <column datatype='string' name='Member type' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2435944' name='federated.0vyj2lk0pja8s11f27d961uma8o0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vyj2lk0pja8s11f27d961uma8o0'>
+            <column datatype='integer' name='[Duration]' role='measure' type='quantitative' />
+            <column-instance column='[Duration]' derivation='Sum' name='[sum:Duration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='811' />
+                <format attr='maxheight' value='811' />
+                <format attr='minwidth' value='60' />
+                <format attr='maxwidth' value='60' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='60' />
+                <format attr='maxwidth' value='60' />
+                <format attr='minheight' value='811' />
+                <format attr='maxheight' value='811' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0vyj2lk0pja8s11f27d961uma8o0].[sum:Duration:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{15BDECD8-CE92-446B-BE04-1C7D99BFFC70}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='3' param='vert' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BE0B4065-ABC2-4BC2-9F35-2A71E7A99CC5}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0vyj2lk0pja8s11f27d961uma8o0].[none:End station:nk]</field>
+            <field>[federated.0vyj2lk0pja8s11f27d961uma8o0].[tyr:Calculation_3737987698480791553:qk]</field>
+            <field>[federated.0vyj2lk0pja8s11f27d961uma8o0].[yr:End date:ok]</field>
+            <field>[federated.0vyj2lk0pja8s11f27d961uma8o0].[yr:Start date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FC44EC0E-5F15-452E-8D39-BC1A5CB7D1F3}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{403863C9-30A3-46DB-B6F3-709C92ED6972}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='141'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
